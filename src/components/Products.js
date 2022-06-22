@@ -6,7 +6,7 @@ import Product from "./Product";
 
 const Products = (props) => {
   const { products } = useContext(ProductContext);
-  console.log(products, "values");
+  console.log(products, "Products");
   return (
     <div className="products-container">
       {products.map((product) => (
